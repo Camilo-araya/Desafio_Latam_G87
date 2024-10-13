@@ -1,0 +1,60 @@
+body {
+    background-color: aliceblue;
+  }
+
+  *{
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  header {
+    width: 1920px;
+    height: 250px;
+    background: url(../css/img/Header-2.png);
+  }
+  
+  header figure {
+    width: 12.5em;
+    height: 12.5em;
+    background: url(../css/img/Logo_dulcesalado200x200.png.png);
+
+  }
+
+  header h1 {
+    position: absolute;
+    top: 2.3em;
+    left: 8em;
+}
+
+.Productos
+{
+    display: flex;
+    margin-left: 20em;
+    
+    
+
+}
+.Tortas {
+    width: 15em;
+    height: 15em;
+    border-radius: 5%;
+    margin-top: 5em;
+    
+
+}
+
+.Textos {
+    align-self: center;
+    margin-left: 1em;
+}
+
+footer{
+  width: 1920px;
+  height: 50px;
+  background-color: beige;
+  margin-top: 8em;
+  text-align: center;
+  line-height: 3em;
+  
+  
+}

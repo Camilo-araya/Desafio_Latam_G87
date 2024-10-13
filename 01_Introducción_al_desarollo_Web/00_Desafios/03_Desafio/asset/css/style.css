@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+  font-family: "Raleway" . sans-serif;
+  color: white;
+}
+
+.titulo {
+ display: block;
+  text-align: center;
+  font-size: 50px;
+}
+
+.img_header {
+  width: 100%;
+  height: 727px;
+}
+
+.section_1 {
+  display: flex;
+  text-align: center;
+}
+
+.parrafo_1 {
+  color: white;
+  text-align: left;
+  margin-top: 5%;
+  font-size: 16px;
+  margin-left: 30%;
+  margin-right: 25%;
+  margin-bottom: 5%;
+}
+
+.img_2 {
+  width: 399px;
+  height: 237px;
+  margin-top: 1%;
+  margin-bottom: 5%;
+  margin-right: 30%;
+  opacity: 1;
+}
+
+.section_2 {
+  background-color: #1e1a13;
+  color: white;
+  opacity: 0.98;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo2 {
+  font-size: 40px;
+}
+
+.box {
+  display: inline;
+  justify-content: center;
+  margin: 3%;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.iguanas {
+  width: 316px;
+  height: 202px;
+}
+
+.visitanos {
+  font-family: "raleway", sans-serif;
+  color: white;
+  font-size: 20px;
+  background-color: #1e1a13;
+  padding-block: 1%;
+  text-align: center;
+}

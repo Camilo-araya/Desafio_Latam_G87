@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- EJEMPLO DE COMO PONER FORMATO CSS MEDIANTE UN TAG LINK AL ARCHIVO STYLE.CSS -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Prueba de CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Introducción a CSS</h1>
+    <h2>Pidgeot</h2>
+    <div>
+      <!-- Asignar una clase a una etiqueta, te ayudará a dar formato o atributos de manera 
+       masiva a las etiquetas, por ejemplo si necesito asignarle un borde, color, tamaño 
+       a un parrafo, se debe agregar el atributo CLASS dentro del tag, esto permitirá 
+       darle un formato desde el archivo style.css a todos los parrafos, la clase 
+      es una nomenclatura que se le asigna. luego en el archivo css se agrega poniendo un 
+      punto (.) y ahí pones el nombre de la clase, por ejemplo en este caso, 
+      la clase es Parrafos, y en el archivo css se buscaría como .Parrafos
+       -->
+      <p class="Parrafos">
+        A diferencia de sus preevoluciones, se les puede encontrar más en
+        solitario o liderando una bandada de Pidgey y Pidgeotto, siendo más
+        territoriales con otros grandes Pokémon voladores.
+      </p>
+    </div>
+
+    <img class="imagen" src="./pidgeot.png" alt="" width="300px" height="300px" />
+
+    <h2>Duque Godofredo</h2>
+    <p class="Parrafos">
+      Duque Godofredo es un aliado vasallo de la extensión Cruzadas del juego
+      Mitos y Leyendas. Es un aliado que bonifica a los caballeros entregandole
+      1 más a la fuerza.
+    </p>
+    <img class="imagen" src="./godofredo.png.png" alt="" width="300px" height="300px" />
+  </body>
+</html>

@@ -1,0 +1,8 @@
+
+
+
+.card {
+    flex: 1; /* Hace que todas las tarjetas ocupen el mismo espacio */
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
